@@ -1,0 +1,231 @@
+* {
+    font-family: Arial;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+img {
+    width: 90px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.menu {
+    align-items: center;
+    display: flex;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding-right: 15px;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px;
+    color: #FFFFFF;
+}
+#banner {
+    display: flex;
+    background-image: url(../img/assesoria\ juridica.jpg);
+    height: 631px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+   
+    
+    
+    
+}
+.banner_headline {
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+     
+}
+h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    
+}
+.bio_Kevin {
+    display: flex;
+    background-image: url(../img/Kevin_bio\ oficial.jpeg);
+    background-size: 100%;
+    height: 170px;
+    width: 170px;
+    border-radius: 80px;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 600px;  
+}
+.Bio {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 30px;
+    
+}
+.biografia {
+    display: block;
+    text-align: center;
+    width: 50%;
+    padding-left: 350px;
+    padding-top: 30px;
+}
+.biografia h2 {
+    font-size: 20px;
+}
+.faculdade {
+    display: flex;
+    justify-content: center;
+}
+.faculdade a {
+    display: flex;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.faculdade a:hover {
+    color: blue;
+}
+.title_artigo {
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+}
+.artigos {
+    display: flex;
+    padding: 30px;
+    padding-left: 90px;
+}
+article {
+    flex: 1;
+    width: 300px;
+    padding:20px;
+}
+article .thumbnail img {
+    width: auto;
+    height: 100px;
+}
+article a {
+    text-decoration: none;
+    color: black;
+}
+.thumbnail {
+    flex: 1;
+    display: flex;
+    
+}
+#geral {
+    background-image: url(../img/fundo\ preto.jpg);
+    display: block;
+    align-items: center;
+    
+}
+#geral section {
+    flex: 2;
+}
+
+article img {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.artigo1 {
+    color: #FFFFFF;
+    width: 300px;
+    font-size: 14px;
+}
+.artigo2 {
+    color: #FFFFFF;
+    width: 300px;
+    font-size: 14px;
+    
+}
+.artigo3 {
+    color: #FFFFFF;
+    width: 300px;
+    font-size: 14px;
+}
+.More {
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a {
+    height: 400px;
+}
